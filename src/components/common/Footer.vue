@@ -15,27 +15,27 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-7 text-center text-md-right">
+        <div class="col-md-6 col-lg-7 text-center text-md-right fs-18">
 
           <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          <a class="fb-ic mr-3">
+            <font-awesome-icon :icon="['fab', 'facebook-f']"  class="white-text"/>
           </a>
           <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter white-text mr-4"> </i>
+          <a class="tw-ic mr-3">
+            <font-awesome-icon :icon="['fab', 'twitter']"  class="white-text"/>
           </a>
           <!-- Google +-->
-          <a class="gplus-ic">
+          <!-- <a class="gplus-ic">
             <i class="fab fa-google-plus-g white-text mr-4"> </i>
-          </a>
+          </a> -->
           <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+          <a class="li-ic mr-3">
+            <font-awesome-icon :icon="['fab', 'linkedin-in']"  class="white-text"/>
           </a>
           <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram white-text"> </i>
+          <a class="ins-ic mr-3">
+            <font-awesome-icon :icon="['fab', 'instagram']"  class="white-text"/>
           </a>
 
         </div>
@@ -117,13 +117,13 @@
         <h6 class="text-uppercase font-weight-bold">Contact</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <font-awesome-icon icon="address-card" /> New York, NY 10012, US</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <font-awesome-icon icon="mail-bulk" /> info@example.com</p>
         <p>
-          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <font-awesome-icon icon="phone-square" /> + 01 234 567 88</p>
         <p>
-          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          <font-awesome-icon icon="phone-square" /> + 01 234 567 89</p>
 
       </div>
       <!-- Grid column -->
@@ -183,4 +183,8 @@ footer.page-footer a{color:#fff;}
 
 /*! CSS Used from: Embedded */
 .documentation footer{padding-left:0;}
+
+.fs-18{
+  font-size: 18px;
+}
 </style>

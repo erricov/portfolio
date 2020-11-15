@@ -1,15 +1,17 @@
 <template>
   <div class="home">
     <Jumbotron title="Ely Errico" lead="Take a look to my profile"/>
-    <div class="container" v-if="seen">
+    <div class="container">
       <h2>Main Services</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque saepe, cumque itaque ad assumenda veritatis officiis consequuntur inventore. Vero quos accusantium aspernatur nihil obcaecati provident deleniti perspiciatis? Praesentium, voluptates! Perspiciatis?</p>
       <Cards :cardata="cards"/>
-    <div class="mt-5 container-fluid">
+    </div>
+    <div class="mt-5">
       <Carousel/>
     </div>
-    <h2>Main Services</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque saepe, cumque itaque ad assumenda veritatis officiis consequuntur inventore. Vero quos accusantium aspernatur nihil obcaecati provident deleniti perspiciatis? Praesentium, voluptates! Perspiciatis?</p>
+    <div class="container">        
+      <h2>Main Services</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque saepe, cumque itaque ad assumenda veritatis officiis consequuntur inventore. Vero quos accusantium aspernatur nihil obcaecati provident deleniti perspiciatis? Praesentium, voluptates! Perspiciatis?</p>
     </div>
   </div>
 </template>

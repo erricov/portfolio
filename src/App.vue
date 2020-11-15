@@ -26,4 +26,7 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+.bg-primary-cstm {
+    background-color: #1c2331!important;
+}
 </style>

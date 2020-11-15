@@ -8,10 +8,23 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 //FA 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons'
+import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
+import { faPhoneSquare } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+ 
 
-library.add(faUserSecret)
+library.add(faAddressCard)
+library.add(faMailBulk)
+library.add(faPhoneSquare)
+library.add(faInstagram)
+library.add(faFacebookF)
+library.add(faTwitter)
+library.add(faLinkedinIn)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 // Install BootstrapVue
