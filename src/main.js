@@ -16,6 +16,10 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
+import { faSms } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
  
 
 library.add(faAddressCard)
@@ -25,6 +29,10 @@ library.add(faInstagram)
 library.add(faFacebookF)
 library.add(faTwitter)
 library.add(faLinkedinIn)
+library.add(faHome)
+library.add(faBookOpen)
+library.add(faSms)
+library.add(faArrowRight)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 // Install BootstrapVue

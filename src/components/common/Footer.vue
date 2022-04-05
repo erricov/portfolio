@@ -2,7 +2,7 @@
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-  <div style="background-color: #6351ce;">
+  <div class="prefooter">
     <div class="container">
 
       <!-- Grid row-->
@@ -57,8 +57,8 @@
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
         <!-- Content -->
-        <h6 class="text-uppercase font-weight-bold">Company name</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <h6 class="text-uppercase font-weight-bold">E. Errico</h6>
+        <hr class="light-blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
           consectetur
           adipisicing elit.</p>
@@ -71,7 +71,7 @@
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Products</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <hr class="light-blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <a href="#!">MDBootstrap</a>
         </p>
@@ -93,7 +93,7 @@
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <hr class="light-blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <a href="#!">Your Account</a>
         </p>
@@ -115,15 +115,15 @@
 
         <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Contact</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <hr class="light-blue accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-            <font-awesome-icon icon="address-card" /> New York, NY 10012, US</p>
+            <font-awesome-icon icon="address-card" /> Sannicandro di Bari, BA 70028, IT</p>
         <p>
-            <font-awesome-icon icon="mail-bulk" /> info@example.com</p>
+            <font-awesome-icon icon="mail-bulk" /> elyerrico@gmail.com</p>
         <p>
-          <font-awesome-icon icon="phone-square" /> + 01 234 567 88</p>
+          <font-awesome-icon icon="phone-square" /> +39 392 523 8575</p>
         <p>
-          <font-awesome-icon icon="phone-square" /> + 01 234 567 89</p>
+          <font-awesome-icon icon="phone-square" /> +39 392 523 8575</p>
 
       </div>
       <!-- Grid column -->
@@ -151,6 +151,10 @@ export default {
 </script>
 
 <style scoped>
+.prefooter{
+  background: rgb(0,234,241)!important;
+  background: linear-gradient(90deg, rgba(0,234,241,1) 0%, rgba(0,32,81,1) 90%)!important;
+}
 .white-text{color:#fff!important;}
 .unique-color-dark{background-color:#1c2331!important;}
 :disabled{pointer-events:none!important;}

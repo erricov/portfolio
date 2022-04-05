@@ -32,9 +32,9 @@ export default {
 </script>
 
 <style scoped>
-  .card{
+  /* .card{
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
-  }
+  } */
   .card-title{
     font-size: 21px;
   }
