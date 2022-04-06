@@ -8,8 +8,7 @@
             <Sidemenu />
         </b-col>
         <b-col>
-          <div class="main-content border border-dark rounded py-4 px-2">
-            <h1>About page</h1>
+          <div class="main-content py-4 px-2">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci ea possimus aperiam quos tenetur, non saepe voluptatibus nobis excepturi quod unde rem sapiente error provident illum dignissimos. Magni, tenetur.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci ea possimus aperiam quos tenetur, non saepe voluptatibus nobis excepturi quod unde rem sapiente error provident illum dignissimos. Magni, tenetur.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci ea possimus aperiam quos tenetur, non saepe voluptatibus nobis excepturi quod unde rem sapiente error provident illum dignissimos. Magni, tenetur.</p>

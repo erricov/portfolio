@@ -9,8 +9,7 @@
           </div>
         </b-col>
         <b-col>
-          <div class="main-content border border-dark rounded py-4 px-2">
-            <h1>Get in touch</h1>
+          <div class="main-content py-4 px-2">
             <b-form @submit="onSubmit" @reset="onReset">
             <b-row v-if="show">
               <b-col cols="12">
